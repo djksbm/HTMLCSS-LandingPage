@@ -323,9 +323,7 @@ footer:after{
 
 .lists{
     flex: 0 0 75%;
-    gap: 15px 15px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 15px;
 }
 
 .link-header{
@@ -339,22 +337,23 @@ footer:after{
 footer a{
     color: white;
     text-transform: uppercase;
-    font-family: 12px;
+    font-size: 12px;
     padding: 0 0 4px;
 }
-footer >a:hover{
+footer a:hover{
     text-decoration: underline;
 }
 
 .social ul li{
     display: inline-block;
+    background-position: center;
 }
 .social ul li a{
     display: block;
     width: 23px;
     height: 23px;
     background-size: 23px 23px;
-    background-position: center center;
+    background-position: center;
 }
 .twitter{
     background-image: url('../img/twitter.svg');
